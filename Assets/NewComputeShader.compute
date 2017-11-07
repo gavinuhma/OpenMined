@@ -1,0 +1,23 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel ScalarMultMain
+
+RWStructuredBuffer<float> data;
+RWStructuredBuffer<float> temp_scalar;
+ 
+[numthreads(4,1,1)]
+void ScalarMultMain (uint3 id : SV_DispatchThreadID)
+{
+    data[id.x] = data[id.x] * temp_scalar[0];
+}
+
+
+#pragma kernel ElementwiseMultMain
+
+RWStructuredBuffer<float> data_a;
+RWStructuredBuffer<float> data_b;
+ 
+[numthreads(4,1,1)]
+void ElementwiseMultMain (uint3 id : SV_DispatchThreadID)
+{
+    data_a[id.x] = data_a[id.x] * data_b[id.x];
+}

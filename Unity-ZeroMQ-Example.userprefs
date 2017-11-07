@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/NewComputeShader.compute">
+    <Files>
+      <File FileName="Assets/Tensor.cs" Line="197" Column="12" />
+      <File FileName="Assets/Plugins/Editor/JetBrains/Unity3DRider.cs" Line="284" Column="1" />
+      <File FileName="Assets/ServerObject.cs" Line="79" Column="27" />
+      <File FileName="Assets/ClientObject.cs" Line="1" Column="1" />
+      <File FileName="Assets/NewComputeShader.compute" Line="21" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
